@@ -56,7 +56,9 @@ footer {
 .p-3 {
     padding: $spacer !important;
 }
-.mr-1 {
-    margin-right: ($spacer * 3) !important;
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
 }
-  
