@@ -22,7 +22,7 @@ footer {
 .jumbotron {
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .row-content {
@@ -31,7 +31,7 @@ footer {
     min-height: 200px;
 }
 .site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#222031, rgb(235, 123, 123));
     padding: 20px 0;
 }
 .navbar {
@@ -51,7 +51,7 @@ footer {
 .px-2 {
     padding-left: ($spacer * .5) !important;
     padding-right: ($spacer * .5) !important;
-}
+}         
   
 .p-3 {
     padding: $spacer !important;
@@ -61,4 +61,11 @@ footer {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10px;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
 }
